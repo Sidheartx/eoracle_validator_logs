@@ -1,0 +1,115 @@
+2024-05-25 19:11:25 Starting data-validator 
+2024-05-25 19:11:28 <1> 2024-05-25T13:41:28.394Z info: Retriveing Eoracle configuration from EOConfig contract
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.502Z info: ~~~~~7.  ccdata~~~~~btc,eth,xrp,ada,fil,doge,sol,trx,dot,matic,ltc,xau,xag,eur,aud,jpy,gbp
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.510Z info: ~~~~~6.  bitfinex~~~~~btc,eth,xrp,ada,doge,sol,trx,dot,matic,ltc,avax,link,ton,icp,shib,uni,eos,leo,op,near,apt,neo,ldo,fil
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.513Z info: ~~~~~3.  kraken~~~~~btc,eth,xrp,ada,bnb,doge,sol,trx,dot,matic,ltc
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.514Z info: ~~~~~4.  houbi~~~~~btc,eth,xrp,ada,doge,sol,trx,dot,matic,ltc,usdt,avax,link,ton,icp,shib,bch,uni,eos,atom,leo,op,near,apt,neo,stx,kas,ldo,fil,xau,xag,eur,aud,jpy,gbp
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.515Z info: ~~~~~5.  coinbase~~~~~btc,eth,xrp,ada,doge,sol,dot,matic,ltc,usdt,avax,link,icp,shib,bch,uni,eos,atom,op,near,apt,stx,ldo,fil,xau,xag,eur,aud,jpy,gbp,cad,inr,krw,brl
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.517Z info: ~~~~~8.  ethereum~~~~~sFRAX,sfrxETH
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.522Z info: EO_CCDATA_API_KEY is not set in .env file, for ccdata feed support: please refer to our support team
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.525Z info: Starting quotes listener
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.526Z info: starting bitfinex feed
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.547Z info: starting kraken feed
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.561Z info: starting houbi feed
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.574Z info: starting coinbase feed
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.589Z info: Starting ethereum feed
+2024-05-25 19:11:36 <1> 2024-05-25T13:41:36.591Z info: Finished initializing ethereum feed
+2024-05-25 19:11:37 <1> 2024-05-25T13:41:37.612Z warn: bitfinex: op not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.004Z warn: coinbase: xau not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.025Z warn: coinbase: xag not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.049Z warn: coinbase: eur not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.068Z warn: coinbase: aud not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.087Z warn: coinbase: jpy not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.115Z warn: coinbase: gbp not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.137Z warn: coinbase: cad not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.167Z warn: coinbase: inr not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.187Z warn: coinbase: krw not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.206Z warn: coinbase: brl not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.229Z warn: coinbase: xau not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.253Z warn: coinbase: xag not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.273Z warn: coinbase: eur not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.297Z warn: coinbase: aud not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.319Z warn: coinbase: jpy not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.348Z warn: coinbase: gbp not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.374Z warn: coinbase: cad not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.394Z warn: coinbase: inr not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.426Z warn: coinbase: krw not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.456Z warn: coinbase: brl not supported
+2024-05-25 19:11:38 <1> 2024-05-25T13:41:38.566Z warn: kraken: bnb not supported
+2024-05-25 19:12:04 <1> 2024-05-25T13:42:04.416Z info: loaded alias encrypted wallet from /app/.keystore/ecdsaAliasedEncryptedWallet.json
+2024-05-25 19:12:06 <1> 2024-05-25T13:42:06.418Z info: Connected to the RPC server: wss://rpc.testnet.eoracle.network/ws, nonce: 0, chainId: 424242, subscription result: 0xf0fb0c1b976e4399bfb97fc8697951c8
+2024-05-25 19:12:06 <1> 2024-05-25T13:42:06.473Z info: Validator restarts on events: OnConfigChange
+2024-05-25 19:12:06 <1> 2024-05-25T13:42:06.520Z info: Health endpoints are available through port: 10003
+2024-05-25 19:12:06 <1> 2024-05-25T13:42:06.521Z info: Prometheus metrics are available through port: 10004
+2024-05-25 19:12:10 <1> 2024-05-25T13:42:10.250Z error: error while sending transaction 2adaf7e7d22faeee48fbe3cb47099aea641b5156407852232c4840b6960d9e7c [nonce:0] :insufficient funds for gas * price + value, target block: 3497760
+2024-05-25 19:12:10 <1> 2024-05-25T13:42:10.680Z error: error while sending transaction 3e4bee082ba239797cec5758a400598b879f62291b2e1cb0e03e0f6344eb3ed1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497761
+2024-05-25 19:12:12 <1> 2024-05-25T13:42:12.012Z error: error while sending transaction e2d38036c07cf039c43ff97783d4e0843097164a30c10fc844ab18d05dfcb873 [nonce:0] :insufficient funds for gas * price + value, target block: 3497762
+2024-05-25 19:12:13 <1> 2024-05-25T13:42:13.343Z error: error while sending transaction e84b262ae8021339a6f66c3aeb736755c3f1a4d7877559442306c2d0912de571 [nonce:0] :insufficient funds for gas * price + value, target block: 3497763
+2024-05-25 19:12:15 <1> 2024-05-25T13:42:15.158Z error: error while sending transaction 88cfd238ecd8836f62bd24c52d6c49fd100c4e5cc9e42d8c977b343d6dea1d5c [nonce:0] :insufficient funds for gas * price + value, target block: 3497764
+2024-05-25 19:12:16 <1> 2024-05-25T13:42:16.497Z error: error while sending transaction 762c26c6468366043842a6329b5d1a07affcabaab29c28f90c92fa8c695c5d16 [nonce:0] :insufficient funds for gas * price + value, target block: 3497765
+2024-05-25 19:12:18 <1> 2024-05-25T13:42:18.129Z error: error while sending transaction fef5b77efd21f715339720ff3e8a49258095dc10e3d939406595024bafa2d031 [nonce:0] :insufficient funds for gas * price + value, target block: 3497766
+2024-05-25 19:12:19 <1> 2024-05-25T13:42:19.607Z error: error while sending transaction 2628cec7e618b9df883fd6aef3f9e401e133015982664bfad86c7a3a49dd7f4d [nonce:0] :insufficient funds for gas * price + value, target block: 3497767
+2024-05-25 19:12:21 <1> 2024-05-25T13:42:21.238Z error: error while sending transaction 8abde1eb3abcf40b2138f4f735f6cdc7e4615168abf42a956a751b7362c666a2 [nonce:0] :insufficient funds for gas * price + value, target block: 3497768
+2024-05-25 19:12:22 <1> 2024-05-25T13:42:22.815Z error: error while sending transaction 13701a6f2b3725b7be19baebc8fec64ef4358781b283f6692f658bb344ba9835 [nonce:0] :insufficient funds for gas * price + value, target block: 3497769
+2024-05-25 19:12:24 <1> 2024-05-25T13:42:24.347Z error: error while sending transaction 1681c16dddf3bdb4b32d1d8d32e1de97baea2fa6cc212604cafc024352647db0 [nonce:0] :insufficient funds for gas * price + value, target block: 3497770
+2024-05-25 19:12:25 <1> 2024-05-25T13:42:25.924Z error: error while sending transaction b95d9700699d5b5f97427abb5525145071a984b4e867b091c975cf9c79ac3308 [nonce:0] :insufficient funds for gas * price + value, target block: 3497771
+2024-05-25 19:12:27 <1> 2024-05-25T13:42:27.466Z error: error while sending transaction 9ef66e22e7b15eeac0916d6cec6ca9beb0589dc4e9e945ae876e1cd752b0ec6d [nonce:0] :insufficient funds for gas * price + value, target block: 3497772
+2024-05-25 19:12:29 <1> 2024-05-25T13:42:29.066Z error: error while sending transaction 94d5de1627dd657e0788d0b517149d9d22cf2373b59b1c7077db6cf1359e806d [nonce:0] :insufficient funds for gas * price + value, target block: 3497773
+2024-05-25 19:12:30 <1> 2024-05-25T13:42:30.604Z error: error while sending transaction a122455a5dc5525530263bc360d99c92d4297524ed12939d34541fec2fca0b26 [nonce:0] :insufficient funds for gas * price + value, target block: 3497774
+2024-05-25 19:12:32 <1> 2024-05-25T13:42:32.151Z error: error while sending transaction 2bb0aba4bd3e5687ae3ab7e30729335542996e898deb457339b5e7190a5c9f89 [nonce:0] :insufficient funds for gas * price + value, target block: 3497775
+2024-05-25 19:12:33 <1> 2024-05-25T13:42:33.751Z error: error while sending transaction 3704ba2e9fd93b1a500b370df3305dc5dcc13accb92aead11b181dd266231587 [nonce:0] :insufficient funds for gas * price + value, target block: 3497776
+2024-05-25 19:12:35 <1> 2024-05-25T13:42:35.301Z error: error while sending transaction 162a73053cc4f356b7b0994597b227f1e10cc33a4c1e51210d35f78b1e3c25ab [nonce:0] :insufficient funds for gas * price + value, target block: 3497777
+2024-05-25 19:12:37 <1> 2024-05-25T13:42:37.016Z error: error while sending transaction 08fd7b75688d93b91968d0dc348e808612e688020b1d725576222c24637d9296 [nonce:0] :insufficient funds for gas * price + value, target block: 3497778
+2024-05-25 19:12:38 <1> 2024-05-25T13:42:38.419Z error: error while sending transaction 2ac07c803885cdabd59759d927594e19cc92ace4bb91ef0afdb2b4088c46658e [nonce:0] :insufficient funds for gas * price + value, target block: 3497779
+2024-05-25 19:12:39 <1> 2024-05-25T13:42:39.943Z error: error while sending transaction 734f229d7ce9413f2295e02cbd10e6337432e4bc525ca6d896b95181a83ac50d [nonce:0] :insufficient funds for gas * price + value, target block: 3497780
+2024-05-25 19:12:41 <1> 2024-05-25T13:42:41.507Z error: error while sending transaction 93813977fac0ea3b7f741165f901a24ddcb763c7b5ed1ecd441db6125e75871f [nonce:0] :insufficient funds for gas * price + value, target block: 3497781
+2024-05-25 19:12:43 <1> 2024-05-25T13:42:43.149Z error: error while sending transaction 0521f0d8b12e57587b5f039566fa32c2a65d88349317fc1598826f7d22dfcff1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497782
+2024-05-25 19:12:44 <1> 2024-05-25T13:42:44.699Z error: error while sending transaction 2f9181ef4e1088503091a6f0e3764387e40c5fce23cdd488897892050e706ebc [nonce:0] :insufficient funds for gas * price + value, target block: 3497783
+2024-05-25 19:12:46 <1> 2024-05-25T13:42:46.311Z error: error while sending transaction 9f2189ae19e00c15d56b8bfa64bf8b1fb850fcd59d2d4c2217c6d7ef058314e8 [nonce:0] :insufficient funds for gas * price + value, target block: 3497784
+2024-05-25 19:12:47 <1> 2024-05-25T13:42:47.825Z error: error while sending transaction fea6a0b33ef2fcfca060749e466a4cf56e7abef32892f950a4aafbc2783a484c [nonce:0] :insufficient funds for gas * price + value, target block: 3497785
+2024-05-25 19:12:49 <1> 2024-05-25T13:42:49.383Z error: error while sending transaction cfe85e38629b099b3ab15a109dbea621786fecc9d4a0fd3ebf932a02dc27b7bf [nonce:0] :insufficient funds for gas * price + value, target block: 3497786
+2024-05-25 19:12:50 <1> 2024-05-25T13:42:50.979Z error: error while sending transaction 8c2b9f69cc69578d52f6a572b476d4b50dadaeace0426ff9b363bee2644384a6 [nonce:0] :insufficient funds for gas * price + value, target block: 3497787
+2024-05-25 19:12:52 <1> 2024-05-25T13:42:52.472Z error: error while sending transaction 8e57854fab4410f56f4bd562e19c7eee660868709d0b6b6c80f28db821349991 [nonce:0] :insufficient funds for gas * price + value, target block: 3497788
+2024-05-25 19:12:54 <1> 2024-05-25T13:42:54.132Z error: error while sending transaction 2b0c005661f33ad2a5157a3d61491c398d5200b3aa997826ac7ad51262ddc790 [nonce:0] :insufficient funds for gas * price + value, target block: 3497789
+2024-05-25 19:12:55 <1> 2024-05-25T13:42:55.638Z error: error while sending transaction 5a8be40922f66e4943dd8a0bdce9715381e5aa7665af8acba4492e59c19f61e2 [nonce:0] :insufficient funds for gas * price + value, target block: 3497790
+2024-05-25 19:12:57 <1> 2024-05-25T13:42:57.233Z error: error while sending transaction 1b61e524e8b4df240bf72122b67f14073670cec454cb04096e66f747231e0806 [nonce:0] :insufficient funds for gas * price + value, target block: 3497791
+2024-05-25 19:12:58 <1> 2024-05-25T13:42:58.874Z error: error while sending transaction 328d8a86e23a36f937cc61f5330d8e899bdbc99f5fb48db7b7e15172c3acd8b5 [nonce:0] :insufficient funds for gas * price + value, target block: 3497792
+2024-05-25 19:13:00 <1> 2024-05-25T13:43:00.400Z error: error while sending transaction adc84af39ea2b27b0e2c592f5d3ff2b1e7048025689832e8e1ef6442bd4391db [nonce:0] :insufficient funds for gas * price + value, target block: 3497793
+2024-05-25 19:13:02 <1> 2024-05-25T13:43:02.020Z error: error while sending transaction 48adcc4c5c114119834c2db1f3a318486120cef25ba18ffe6ca0eaec61fb30f1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497794
+2024-05-25 19:13:03 <1> 2024-05-25T13:43:03.637Z error: error while sending transaction 8aa93539cc000b72860f8a90486b5ead29755d60cb71e1876393812116b7e175 [nonce:0] :insufficient funds for gas * price + value, target block: 3497795
+2024-05-25 19:13:05 <1> 2024-05-25T13:43:05.186Z error: error while sending transaction 92fa2f074928a58c5492f5a85ef30a077a5285f2bd379a9d50f378c891195150 [nonce:0] :insufficient funds for gas * price + value, target block: 3497796
+2024-05-25 19:13:06 <1> 2024-05-25T13:43:06.863Z error: error while sending transaction 18aec4c265ced714a18c1f3698df7029091832fbec68b7a1e8f16a7c103fba09 [nonce:0] :insufficient funds for gas * price + value, target block: 3497797
+2024-05-25 19:13:08 <1> 2024-05-25T13:43:08.409Z error: error while sending transaction 52bd1c03d063b3d5e1e6e0b07314c5e61067918b40ad87a0ebc76154d41b0a69 [nonce:0] :insufficient funds for gas * price + value, target block: 3497798
+2024-05-25 19:13:09 <1> 2024-05-25T13:43:09.882Z error: error while sending transaction 037c6c6a9aba3bc8473906cfd051223e2cdabb5bbf9127992f49b0614555d251 [nonce:0] :insufficient funds for gas * price + value, target block: 3497799
+2024-05-25 19:13:11 <1> 2024-05-25T13:43:11.718Z error: error while sending transaction a494acf216fa57445d0e86fce4a2f03f04e36311248a38b7bd1b848c31c6b1c1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497800
+2024-05-25 19:13:13 <1> 2024-05-25T13:43:13.030Z error: error while sending transaction 93a39e4c70bf7b1ec6859d652cf068dd173e4c0303773d35451b54c59c229494 [nonce:0] :insufficient funds for gas * price + value, target block: 3497801
+2024-05-25 19:13:14 <1> 2024-05-25T13:43:14.610Z error: error while sending transaction de814cdd75d02ac7af7dc4de5c482ec0770282631be7f085270e143c32b938d9 [nonce:0] :insufficient funds for gas * price + value, target block: 3497802
+2024-05-25 19:13:16 <1> 2024-05-25T13:43:16.058Z error: error while sending transaction eb781bb49b39d3f74d2b8a3e3ff3b3c5feff51cc9dbab5a67f6dba74864d447f [nonce:0] :insufficient funds for gas * price + value, target block: 3497803
+2024-05-25 19:13:17 <1> 2024-05-25T13:43:17.852Z error: error while sending transaction 154e73e9e91fcb9167c8db619ced890bcc3a570334d92c7aa89ac92d961d83d3 [nonce:0] :insufficient funds for gas * price + value, target block: 3497804
+2024-05-25 19:13:19 <1> 2024-05-25T13:43:19.245Z error: error while sending transaction 2053b2778d131ed527f48a585c71c6636f5582e9de68de89b63ba19acd8f9f87 [nonce:0] :insufficient funds for gas * price + value, target block: 3497805
+2024-05-25 19:13:20 <1> 2024-05-25T13:43:20.962Z error: error while sending transaction b2177f18ffee5e41e926ba2bd09c31dab900c8936b7ba3653e9635ab1baa347e [nonce:0] :insufficient funds for gas * price + value, target block: 3497806
+2024-05-25 19:13:22 <1> 2024-05-25T13:43:22.469Z error: error while sending transaction 350748ef8a8fcf5c509c53cd7cb297424800d7df3c53c5d98abc03399da50a06 [nonce:0] :insufficient funds for gas * price + value, target block: 3497807
+2024-05-25 19:13:24 <1> 2024-05-25T13:43:24.231Z error: error while sending transaction 558e1419d3c041b81df817de6140062ff5c4374e38a12a4f52fa01c4f6b58115 [nonce:0] :insufficient funds for gas * price + value, target block: 3497808
+2024-05-25 19:13:25 <1> 2024-05-25T13:43:25.647Z error: error while sending transaction 33f66cfbabc38a6a07ee49c7ccf9b6a36458e4efe156cd20563ec62151fc618c [nonce:0] :insufficient funds for gas * price + value, target block: 3497809
+2024-05-25 19:13:27 <1> 2024-05-25T13:43:27.246Z error: error while sending transaction 8f339ff183c0dbde5e6c296451e34f4f198aeda8181d14318766f0471a55f643 [nonce:0] :insufficient funds for gas * price + value, target block: 3497810
+2024-05-25 19:13:28 <1> 2024-05-25T13:43:28.709Z error: error while sending transaction 5fca9fbb065e39242cbb31fc500f70c826896a90a2653874e6be92a22abe34d1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497811
+2024-05-25 19:13:30 <1> 2024-05-25T13:43:30.354Z error: error while sending transaction 5b5e121a91fcfab386dab267f32809ccd43060f0462d0670f38728c8444a8bd8 [nonce:0] :insufficient funds for gas * price + value, target block: 3497812
+2024-05-25 19:13:31 <1> 2024-05-25T13:43:31.858Z error: error while sending transaction 174dd6c72cd4345fbdeae4007ec35ada7cbd01743c26c2ac952c739cd12d00e8 [nonce:0] :insufficient funds for gas * price + value, target block: 3497813
+2024-05-25 19:13:33 <1> 2024-05-25T13:43:33.466Z error: error while sending transaction cb346b87d33ceae86b0d06c63a6988e65bec4b6c462ff8534083444b1d458c70 [nonce:0] :insufficient funds for gas * price + value, target block: 3497814
+2024-05-25 19:13:34 <1> 2024-05-25T13:43:34.981Z error: error while sending transaction 6e4f7208826130b50dd78ccd5e42d2632fa87cc6e7fef350c8d36a5d77e2b787 [nonce:0] :insufficient funds for gas * price + value, target block: 3497815
+2024-05-25 19:13:36 <1> 2024-05-25T13:43:36.603Z error: error while sending transaction 201d614e4f409c94cdade19aa5b5db32695ecc31e818aa20f69dde0427260187 [nonce:0] :insufficient funds for gas * price + value, target block: 3497816
+2024-05-25 19:13:38 <1> 2024-05-25T13:43:38.135Z error: error while sending transaction adb60878aeacc5afd43abe9e7c8e4d3a994cb2c6281d37e757ac60cc606013b8 [nonce:0] :insufficient funds for gas * price + value, target block: 3497817
+2024-05-25 19:13:39 <1> 2024-05-25T13:43:39.796Z error: error while sending transaction 5b6b15afe432bb7a3b8be8690ff010d1a4adec3d22c6ff8f1f577fd67fb50a2d [nonce:0] :insufficient funds for gas * price + value, target block: 3497818
+2024-05-25 19:13:41 <1> 2024-05-25T13:43:41.435Z error: error while sending transaction 2863ba43aef5ede47a71697c35decd0cba696fa0283559154c88a8284358bb82 [nonce:0] :insufficient funds for gas * price + value, target block: 3497819
+2024-05-25 19:13:42 <1> 2024-05-25T13:43:42.898Z error: error while sending transaction 61fbce65ca0040981e225d549c7c476a6a4563be849b2459561a1bdd3c46705c [nonce:0] :insufficient funds for gas * price + value, target block: 3497820
+2024-05-25 19:13:44 <1> 2024-05-25T13:43:44.546Z error: error while sending transaction 8bf7082c51442c3fb79938b878c591444a2b8d9f02c7980fa511451d0a6b4945 [nonce:0] :insufficient funds for gas * price + value, target block: 3497821
+2024-05-25 19:13:46 <1> 2024-05-25T13:43:46.054Z error: error while sending transaction ba69f9a15e2deecc23f8d283586a77d62bcb468e3662ed7792d2ef42ffa1ab8d [nonce:0] :insufficient funds for gas * price + value, target block: 3497822
+2024-05-25 19:13:47 <1> 2024-05-25T13:43:47.596Z error: error while sending transaction 2b409279ecee8b1c3d37d67c43677c7732e637e5dba05c4adac4cb94d7d7f939 [nonce:0] :insufficient funds for gas * price + value, target block: 3497823
+2024-05-25 19:13:49 <1> 2024-05-25T13:43:49.172Z error: error while sending transaction 2713563fd183401776ba2845775e932dbdfdbd06dfcd489486bc085a4d3d3aa6 [nonce:0] :insufficient funds for gas * price + value, target block: 3497824
+2024-05-25 19:13:50 <1> 2024-05-25T13:43:50.682Z error: error while sending transaction 7eaa2df40c3fa858c1c96252b5a0d5fdf1b5240ad93a3bc247f796b70435df2b [nonce:0] :insufficient funds for gas * price + value, target block: 3497825
+2024-05-25 19:13:52 <1> 2024-05-25T13:43:52.242Z error: error while sending transaction b016630e2740b26a2a8ae99d39f848abb7333a69cee57feca2195c57993a9ae8 [nonce:0] :insufficient funds for gas * price + value, target block: 3497826
+2024-05-25 19:13:53 <1> 2024-05-25T13:43:53.744Z error: error while sending transaction 6b4aafe8a0b4997bfe2107c1e90a2014ec5d04317df424751c03f3c5d5e0387a [nonce:0] :insufficient funds for gas * price + value, target block: 3497827
+2024-05-25 19:13:55 <1> 2024-05-25T13:43:55.455Z error: error while sending transaction 8076cbaf0bae3ee8e8aa80d7954487581fb8a9eb35aaf616d1bd46306df5e667 [nonce:0] :insufficient funds for gas * price + value, target block: 3497828
+2024-05-25 19:13:56 <1> 2024-05-25T13:43:56.871Z error: error while sending transaction 0b0e59bafb121fc915696b154cfd95e6d81fb7fe5bd14b241e4eb2c085940584 [nonce:0] :insufficient funds for gas * price + value, target block: 3497829
+2024-05-25 19:13:58 <1> 2024-05-25T13:43:58.461Z error: error while sending transaction 2aa25df7ce58ad939a954e28eb78bef5bf75bd7ee508a73d9458172ba1ff54db [nonce:0] :insufficient funds for gas * price + value, target block: 3497830
+2024-05-25 19:14:00 <1> 2024-05-25T13:44:00.070Z error: error while sending transaction a69ee261786f72f324788eefb9bdad53355a6bdba955af35fe79d5db47e878a1 [nonce:0] :insufficient funds for gas * price + value, target block: 3497831
